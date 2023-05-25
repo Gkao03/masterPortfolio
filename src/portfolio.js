@@ -670,19 +670,74 @@ const projectsHeader = {
 const publicationsHeader = {
   title: "Publications",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "",
   avatar_image_path: "projects_image.svg",
 };
 
 const projects = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Deep Reinforcement Learning for Image Processing",
+      description: "This work explores an alternative method to image processing, incorporating a deep RL framework. We maintain a deep network method, but with a mechanism to learn agents that can take actions for reconstruction.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/Gkao03/CS-Deep-RL",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Deep Network Approach for Blind Calibration in Compressive Sensing",
+      description: "The topic of Blind Calibration within compressive sensing deals with added unknown parameters within a system that perturb the true measurements. This work presents a method through a deep learned network approach to perform calibration of the measurements as well reconstruction in a compressed sensing framework.",
+      url:
+        "https://github.com/Gkao03/CS-Deep-RL",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Compressed Sensing for Generative Models",
+      description: "An alternate approach to image reconstruction using a generator network with sparse measurements.",
+      url:
+        "https://github.com/Gkao03/CSGM",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Facial Expression Synthesis",
+      description: "Using deep generative networks and other latent space interpolation methods to generate synthetic faces.",
+      url:
+        "https://github.com/Gkao03/Facial_Expression_Synthesis",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Speech Emotion Recognition",
+      description: "Utilizing a phoneme extraction tool (Allosaurus) to tackle an NLP problem to recognize the emotional category of a corpus of text.",
+      url:
+        "https://github.com/Gkao03/Speech-Emotion-Recognition",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Sparse Image Reconstruction",
+      description: "Comparing traditional ML optimization algorithms to recontruct a sparse input image.",
+      url:
+        "https://github.com/Gkao03/Sparse_Image_Reconstruction",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Fairvision",
+      description: "Novel research using crowdsourcing to detect bias in visual datasets. Work published in Web Conference.",
+      url:
+        "https://github.com/SionHu/Fairvision",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "PokeGAN",
+      description: "Generative Adversarial Network (GAN) to create your own synthetic pokemon!",
+      url:
+        "https://github.com/Gkao03/PokeGAN",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Hand Gesture RC Car",
+      description: "An RC car controlled remotely by hand gestures using flex sensors communicating with a microntroller.",
+      url:
+        "https://github.com/Gkao03/operation_phoenix",
     },
   ]
 }

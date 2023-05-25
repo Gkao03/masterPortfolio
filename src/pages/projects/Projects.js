@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
+import ProjectCard from "../../components/publicationsCard/ProjectCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
@@ -66,7 +67,7 @@ class Projects extends Component {
         {/* Projects  */}
         <div className="repo-cards-div-main">
           {projects.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
+            return <ProjectCard pub={pub} theme={theme} />;
           })}
         </div>
 
