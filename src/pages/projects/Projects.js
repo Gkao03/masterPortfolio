@@ -10,6 +10,7 @@ import {
   greeting,
   projectsHeader,
   publicationsHeader,
+  projects,
   publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
@@ -61,6 +62,13 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
+
+        {/* Projects  */}
+        <div className="repo-cards-div-main">
+          {projects.data.map((pub) => {
+            return <PublicationCard pub={pub} theme={theme} />;
+          })}
+        </div>
 
         {/* Publications  */}
         {publications.data.length > 0 ? (
