@@ -690,45 +690,37 @@ const projects = {
 const publications = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Observing Human Mobility Internationally During COVID-19",
+      createdAt: "2023-03-03",
+      description: "This article analyzes visual data captured from five countries and three U.S. states to evaluate the effectiveness of lockdown policies for reducing the spread of COVID-19. The main challenge is the scale: nearly six million images are analyzed to observe how people respond to the policy changes.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://ieeexplore.ieee.org/abstract/document/10058769",
     },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Towards Generating Human-Centered Saliency Maps Without Significantly Sacrificing Accuracy",
+      createdAt: "2022-06-19",
+      description: "Deep network models are not always semantically meaningful to humans as traditional interpretability techniques are quantitatively driven. Therefore, we explore how to generate saliency maps that are more similar to human attention without significantly sacrificing the model performance. We conduct an empirical study to understand how current object detection models compare to human centered saliency maps.",
+      url:
+        "https://katelyn98.github.io/assets/pdf/19_CameraReady_CVPR2022_NeuroVision_SHORT_CameraReady.pdf",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Observing responses to the COVID-19 pandemic using worldwide network cameras",
+      createdAt: "2020-05-18",
+      description: "This paper reports using thousands of network cameras deployed worldwide for the purpose of witnessing activities in response to COVID-19 policies. The network cameras can continuously provide real-time visual data (image and video) without human efforts. The project discovers over 30,000 network cameras deployed in 110 countries. A set of computer tools are created to collect visual data from network cameras continuously during the pandemic.",
+      url:
+        "https://arxiv.org/abs/2005.09091",
+    },
+    {
+      // id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Crowdsourcing detection of sampling biases in image datasets",
+      createdAt: "2020-04-20",
+      description: "Being able to detect potential sampling biases in the visual dataset prior to model development is essential for mitigating the fairness and trustworthy concerns in computer vision. In this paper, we propose a three-step crowdsourcing workflow to get humans into the loop for facilitating bias discovery in image datasets.",
+      url:
+        "https://dl.acm.org/doi/abs/10.1145/3366423.3380063",
+    },
   ],
 };
 
